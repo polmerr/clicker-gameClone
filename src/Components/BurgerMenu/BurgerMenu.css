@@ -1,0 +1,43 @@
+.burger-wrapper{
+    position: fixed;
+    background-color: grey;
+    height: 100%;
+    width:18%;
+    box-shadow: 2px 0px 7px 0px rgba(0,0,0,0.3);
+    padding:20px
+}
+
+.burger-banner{
+    display: flex;
+    gap:30px
+}
+
+.burger-banner-bars{
+    height: 30px;
+    cursor: pointer;
+    align-self: center;
+}
+.shop-title{
+    font-size: 35px;
+    
+}
+
+.burger-shop-items{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.shop-item{
+    cursor: pointer;
+}
+
+.shop-item:hover{
+    color:rgba(50,50,50)
+}
+
+.item-name-price{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}

@@ -1,0 +1,32 @@
+.banner{
+    background-color: rgba(255, 79, 79);
+    padding:20px;
+    display: flex;
+    align-items: center;
+    gap:30px;
+}
+
+.banner-icon{
+    height: 30px;
+}
+
+.cat-savings{
+    display: flex;
+    gap:10px
+}
+
+#shop-burger{
+    cursor: pointer;
+    
+}
+.quiz-icon{
+    margin-left: auto;
+    margin-right: 50px;
+    font-size: 30px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.quiz-icon:hover, #shop-burger:hover{
+    opacity: 1;
+}

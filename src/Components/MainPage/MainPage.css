@@ -1,0 +1,43 @@
+.main-page-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.cat-clicker{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.cat-multiplier{
+    position: fixed;
+    bottom:30%;
+    left:46%
+}
+
+.cat-clicker-icon{
+    height: 200px;
+    cursor: pointer;
+}
+.cat-clicker-icon:hover{
+    height: 205px;
+    opacity: .85;
+}
+.cat-clicker-icon:active{
+    height: 195px;
+    opacity: 0.7;
+}
+
+.reset-debug{
+    width:40px;display: inline;
+}
+
+@keyframes upAndFade {
+    0%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0;
+        
+    }
+}
